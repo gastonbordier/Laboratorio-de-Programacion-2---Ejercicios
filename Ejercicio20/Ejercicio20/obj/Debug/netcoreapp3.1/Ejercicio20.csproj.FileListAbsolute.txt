@@ -1,0 +1,13 @@
+C:\Users\Administrador\source\repos\Ejercicio20\Ejercicio20\bin\Debug\netcoreapp3.1\Ejercicio20.exe
+C:\Users\Administrador\source\repos\Ejercicio20\Ejercicio20\bin\Debug\netcoreapp3.1\Ejercicio20.deps.json
+C:\Users\Administrador\source\repos\Ejercicio20\Ejercicio20\bin\Debug\netcoreapp3.1\Ejercicio20.runtimeconfig.json
+C:\Users\Administrador\source\repos\Ejercicio20\Ejercicio20\bin\Debug\netcoreapp3.1\Ejercicio20.runtimeconfig.dev.json
+C:\Users\Administrador\source\repos\Ejercicio20\Ejercicio20\bin\Debug\netcoreapp3.1\Ejercicio20.dll
+C:\Users\Administrador\source\repos\Ejercicio20\Ejercicio20\bin\Debug\netcoreapp3.1\Ejercicio20.pdb
+C:\Users\Administrador\source\repos\Ejercicio20\Ejercicio20\obj\Debug\netcoreapp3.1\Ejercicio20.csprojAssemblyReference.cache
+C:\Users\Administrador\source\repos\Ejercicio20\Ejercicio20\obj\Debug\netcoreapp3.1\Ejercicio20.AssemblyInfoInputs.cache
+C:\Users\Administrador\source\repos\Ejercicio20\Ejercicio20\obj\Debug\netcoreapp3.1\Ejercicio20.AssemblyInfo.cs
+C:\Users\Administrador\source\repos\Ejercicio20\Ejercicio20\obj\Debug\netcoreapp3.1\Ejercicio20.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\source\repos\Ejercicio20\Ejercicio20\obj\Debug\netcoreapp3.1\Ejercicio20.dll
+C:\Users\Administrador\source\repos\Ejercicio20\Ejercicio20\obj\Debug\netcoreapp3.1\Ejercicio20.pdb
+C:\Users\Administrador\source\repos\Ejercicio20\Ejercicio20\obj\Debug\netcoreapp3.1\Ejercicio20.genruntimeconfig.cache
