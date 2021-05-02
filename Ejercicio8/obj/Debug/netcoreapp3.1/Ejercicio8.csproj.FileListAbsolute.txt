@@ -1,0 +1,13 @@
+C:\Users\Gaston\source\repos\Ejercicio8\obj\Debug\netcoreapp3.1\Ejercicio8.csprojAssemblyReference.cache
+C:\Users\Gaston\source\repos\Ejercicio8\obj\Debug\netcoreapp3.1\Ejercicio8.AssemblyInfoInputs.cache
+C:\Users\Gaston\source\repos\Ejercicio8\obj\Debug\netcoreapp3.1\Ejercicio8.AssemblyInfo.cs
+C:\Users\Gaston\source\repos\Ejercicio8\obj\Debug\netcoreapp3.1\Ejercicio8.csproj.CoreCompileInputs.cache
+C:\Users\Gaston\source\repos\Ejercicio8\bin\Debug\netcoreapp3.1\Ejercicio8.exe
+C:\Users\Gaston\source\repos\Ejercicio8\bin\Debug\netcoreapp3.1\Ejercicio8.deps.json
+C:\Users\Gaston\source\repos\Ejercicio8\bin\Debug\netcoreapp3.1\Ejercicio8.runtimeconfig.json
+C:\Users\Gaston\source\repos\Ejercicio8\bin\Debug\netcoreapp3.1\Ejercicio8.runtimeconfig.dev.json
+C:\Users\Gaston\source\repos\Ejercicio8\bin\Debug\netcoreapp3.1\Ejercicio8.dll
+C:\Users\Gaston\source\repos\Ejercicio8\bin\Debug\netcoreapp3.1\Ejercicio8.pdb
+C:\Users\Gaston\source\repos\Ejercicio8\obj\Debug\netcoreapp3.1\Ejercicio8.dll
+C:\Users\Gaston\source\repos\Ejercicio8\obj\Debug\netcoreapp3.1\Ejercicio8.pdb
+C:\Users\Gaston\source\repos\Ejercicio8\obj\Debug\netcoreapp3.1\Ejercicio8.genruntimeconfig.cache

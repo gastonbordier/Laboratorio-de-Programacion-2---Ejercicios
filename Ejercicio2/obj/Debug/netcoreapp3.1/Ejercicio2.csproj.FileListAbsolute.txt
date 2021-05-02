@@ -1,0 +1,12 @@
+C:\Users\Gaston\source\repos\Ejercicio2\bin\Debug\netcoreapp3.1\Ejercicio2.exe
+C:\Users\Gaston\source\repos\Ejercicio2\bin\Debug\netcoreapp3.1\Ejercicio2.deps.json
+C:\Users\Gaston\source\repos\Ejercicio2\bin\Debug\netcoreapp3.1\Ejercicio2.runtimeconfig.json
+C:\Users\Gaston\source\repos\Ejercicio2\bin\Debug\netcoreapp3.1\Ejercicio2.runtimeconfig.dev.json
+C:\Users\Gaston\source\repos\Ejercicio2\bin\Debug\netcoreapp3.1\Ejercicio2.dll
+C:\Users\Gaston\source\repos\Ejercicio2\bin\Debug\netcoreapp3.1\Ejercicio2.pdb
+C:\Users\Gaston\source\repos\Ejercicio2\obj\Debug\netcoreapp3.1\Ejercicio2.AssemblyInfoInputs.cache
+C:\Users\Gaston\source\repos\Ejercicio2\obj\Debug\netcoreapp3.1\Ejercicio2.AssemblyInfo.cs
+C:\Users\Gaston\source\repos\Ejercicio2\obj\Debug\netcoreapp3.1\Ejercicio2.csproj.CoreCompileInputs.cache
+C:\Users\Gaston\source\repos\Ejercicio2\obj\Debug\netcoreapp3.1\Ejercicio2.dll
+C:\Users\Gaston\source\repos\Ejercicio2\obj\Debug\netcoreapp3.1\Ejercicio2.pdb
+C:\Users\Gaston\source\repos\Ejercicio2\obj\Debug\netcoreapp3.1\Ejercicio2.genruntimeconfig.cache

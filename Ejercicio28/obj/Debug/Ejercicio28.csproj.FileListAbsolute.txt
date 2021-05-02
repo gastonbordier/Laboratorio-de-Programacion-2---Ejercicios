@@ -1,0 +1,10 @@
+C:\Users\Gaston\source\repos\Ejercicio28\obj\Debug\Ejercicio28.csprojAssemblyReference.cache
+C:\Users\Gaston\source\repos\Ejercicio28\obj\Debug\Ejercicio28.Form1.resources
+C:\Users\Gaston\source\repos\Ejercicio28\obj\Debug\Ejercicio28.Properties.Resources.resources
+C:\Users\Gaston\source\repos\Ejercicio28\obj\Debug\Ejercicio28.csproj.GenerateResource.cache
+C:\Users\Gaston\source\repos\Ejercicio28\obj\Debug\Ejercicio28.csproj.CoreCompileInputs.cache
+C:\Users\Gaston\source\repos\Ejercicio28\bin\Debug\Ejercicio28.exe.config
+C:\Users\Gaston\source\repos\Ejercicio28\bin\Debug\Ejercicio28.exe
+C:\Users\Gaston\source\repos\Ejercicio28\bin\Debug\Ejercicio28.pdb
+C:\Users\Gaston\source\repos\Ejercicio28\obj\Debug\Ejercicio28.exe
+C:\Users\Gaston\source\repos\Ejercicio28\obj\Debug\Ejercicio28.pdb

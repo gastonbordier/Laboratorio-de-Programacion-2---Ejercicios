@@ -1,0 +1,7 @@
+C:\Users\Gaston\source\repos\Ejercicio20\bin\Debug\Ejercicio20.exe.config
+C:\Users\Gaston\source\repos\Ejercicio20\bin\Debug\Ejercicio20.exe
+C:\Users\Gaston\source\repos\Ejercicio20\bin\Debug\Ejercicio20.pdb
+C:\Users\Gaston\source\repos\Ejercicio20\obj\Debug\Billetes.csprojAssemblyReference.cache
+C:\Users\Gaston\source\repos\Ejercicio20\obj\Debug\Billetes.csproj.CoreCompileInputs.cache
+C:\Users\Gaston\source\repos\Ejercicio20\obj\Debug\Ejercicio20.exe
+C:\Users\Gaston\source\repos\Ejercicio20\obj\Debug\Ejercicio20.pdb
