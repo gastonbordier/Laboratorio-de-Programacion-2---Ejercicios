@@ -20,7 +20,7 @@ namespace Billetes
 
         public Pesos( double cantidad)
         {
-            this.cantidad = cantidad;
+            this.cantidad = Auxiliares.TruncarEnDosDecimales(cantidad);
             
         }
 
@@ -28,12 +28,12 @@ namespace Billetes
 
         public static explicit operator Dolares(Pesos pesos)
         {
-            return new Dolares(pesos.getCantidad() / Pesos.getCotizacionDolar());
+            return new Dolares(pesos.getCantidad() / Pesos.GetCotizacionDolar());
         }
 
         public static explicit operator Euros(Pesos pesos)
         {
-            return new Euros(pesos.getCantidad() * ( Euros.getCotizacionDolar()/Pesos.getCotizacionDolar()));
+            return new Euros(pesos.getCantidad() * ( Euros.getCotizacionDolar()/Pesos.GetCotizacionDolar()));
         }
 
 
@@ -186,9 +186,14 @@ namespace Billetes
         {
             return Auxiliares.TruncarEnDosDecimales(this.cantidad);
         }
-        public static double getCotizacionDolar()
+        public static double GetCotizacionDolar()
         {
             return Auxiliares.TruncarEnDosDecimales(cotizacionDolar);
+        }
+
+        public static void SetCotizacionDolar(double nuevaCotizacion)
+        {
+            cotizacionDolar = Auxiliares.TruncarEnDosDecimales(nuevaCotizacion);
         }
     }
 }

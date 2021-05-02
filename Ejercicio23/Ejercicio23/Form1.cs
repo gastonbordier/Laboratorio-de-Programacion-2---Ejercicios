@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Billetes;
+using Auxiliar;
 
 
 
@@ -21,7 +22,7 @@ namespace Ejercicio23
             InitializeComponent();
             txtCotizacionDolar.Text = "1";
             txtCotizacionEuro.Text = Euros.getCotizacionDolar().ToString();
-            txtCotizacionPeso.Text = Pesos.getCotizacionDolar().ToString();
+            txtCotizacionPeso.Text = Pesos.GetCotizacionDolar().ToString();
 
         }
 
@@ -43,47 +44,6 @@ namespace Ejercicio23
             return txtCotizacionDolar.ReadOnly;
         }
 
-        private void txtCotizacionDolar_Leave(object sender, EventArgs e)
-        {
-            if (txtCotizacionDolar.Text != "1")
-            {
-                txtCotizacionDolar.Text = "1";
-            }
-        }
-       
-        private void txtCotizacionEuro_Leave(object sender, EventArgs e)
-        {
-            double result;
-
-            if (double.TryParse(txtCotizacionEuro.Text, out result))
-            {
-                txtCotizacionEuro.Text = result.ToString();
-            }
-            else
-            {
-                txtCotizacionEuro.Text = "Ingresar numero";
-                txtCotizacionEuro.SelectAll();
-                txtCotizacionEuro.Focus();
-            }
-        }
-
-        private void txtCotizacionPeso_Leave(object sender, EventArgs e)
-        {
-            double result;
-
-            if (double.TryParse(txtCotizacionPeso.Text, out result))
-            {
-                txtCotizacionPeso.Text = result.ToString();
-            }
-            else
-            {
-                txtCotizacionPeso.Text = "Ingresar numero";
-                txtCotizacionPeso.SelectAll();
-                txtCotizacionPeso.Focus();
-            }
-        }
-
-
         private void btnBloquear_Click(object sender, EventArgs e)
         {
             if (CotizacionesBloqueadas() == true)
@@ -96,14 +56,88 @@ namespace Ejercicio23
             }
         }
 
-        private void btn_Click(object sender, EventArgs e)
+        private void txtCotizacionDolar_Leave(object sender, EventArgs e)
         {
+            if (txtCotizacionDolar.Text != "1")
+            {
+                txtCotizacionDolar.Text = "1";
+            }
+        }
+        private void ParsearDouble(TextBox textBox)
+        {
+            double result;
 
+            if (double.TryParse(textBox.Text, out result))
+            {
+                textBox.Text = result.ToString();
+            }
+            else
+            {
+                textBox.Text = "0";
+                textBox.SelectAll();
+                textBox.Focus();
+            }
+        }
+       
+        private void txtCotizacionEuro_Leave(object sender, EventArgs e)
+        {
+            ParsearDouble(txtCotizacionEuro);
+            Euros.SetCotizacionDolar(double.Parse(txtCotizacionEuro.Text));
+        }
+
+        private void txtCotizacionPeso_Leave(object sender, EventArgs e)
+        {
+            ParsearDouble(txtCotizacionPeso);
+            Pesos.SetCotizacionDolar(double.Parse(txtCotizacionPeso.Text));
         }
 
         private void txtDolar_Leave(object sender, EventArgs e)
         {
+            ParsearDouble(txtDolar);
+        }
+        private void txtEuro_Leave(object sender, EventArgs e)
+        {
+            ParsearDouble(txtEuro);
+        }
+        private void txtPeso_Leave(object sender, EventArgs e)
+        {
+            ParsearDouble(txtPeso);
+        }
 
+        private void btnDolar_Click(object sender, EventArgs e)
+        {
+            Dolares dolares = new Dolares(double.Parse(txtDolar.Text));
+            Euros euros = (Euros)dolares;
+            Pesos pesos = (Pesos)dolares;
+
+
+            txtDolarADolar.Text = txtDolar.Text;
+            txtDolarAEuro.Text = euros.getCantidad().ToString(); 
+            txtDolarAPeso.Text = pesos.getCantidad().ToString();
+        }
+
+        private void btnEuro_Click(object sender, EventArgs e)
+        {
+            Euros euros = new Euros(double.Parse(txtEuro.Text));
+            Dolares dolares = (Dolares)euros;
+            Pesos pesos = (Pesos)euros;
+
+
+            txtEuroADolar.Text =  dolares.getCantidad().ToString();
+            txtEuroAEuro.Text = txtEuro.Text;
+            txtEuroAPeso.Text = pesos.getCantidad().ToString();
+        }
+
+        private void btnPeso_Click(object sender, EventArgs e)
+        {
+            Pesos pesos= new Pesos(double.Parse(txtPeso.Text));
+            Dolares dolares = (Dolares)pesos;
+            Euros euros = (Euros)pesos;
+
+
+            txtPesosAPesos.Text = txtPeso.Text;
+            txtPesoADolar.Text = dolares.getCantidad().ToString();
+            txtPesoAEuro.Text = euros.getCantidad().ToString();
         }
     }
 }

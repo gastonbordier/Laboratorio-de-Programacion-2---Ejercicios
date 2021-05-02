@@ -20,3 +20,25 @@ C:\Users\Administrador\source\repos\Ejercicio23\Ejercicio23\bin\Debug\netcoreapp
 C:\Users\Administrador\source\repos\Ejercicio23\Ejercicio23\bin\Debug\netcoreapp3.1\Ejercicio20.runtimeconfig.json
 C:\Users\Administrador\source\repos\Ejercicio23\Ejercicio23\bin\Debug\netcoreapp3.1\Ejercicio20.runtimeconfig.dev.json
 C:\Users\Administrador\source\repos\Ejercicio23\Ejercicio23\bin\Debug\netcoreapp3.1\Ejercicio20.dll
+C:\Impresor HP p2015d Drivers\REPOS\EjerLabo2\Ejercicio23\Ejercicio23\bin\Debug\netcoreapp3.1\Ejercicio20.deps.json
+C:\Impresor HP p2015d Drivers\REPOS\EjerLabo2\Ejercicio23\Ejercicio23\bin\Debug\netcoreapp3.1\Ejercicio20.runtimeconfig.json
+C:\Impresor HP p2015d Drivers\REPOS\EjerLabo2\Ejercicio23\Ejercicio23\bin\Debug\netcoreapp3.1\Ejercicio20.runtimeconfig.dev.json
+C:\Impresor HP p2015d Drivers\REPOS\EjerLabo2\Ejercicio23\Ejercicio23\bin\Debug\netcoreapp3.1\Ejercicio20.exe
+C:\Impresor HP p2015d Drivers\REPOS\EjerLabo2\Ejercicio23\Ejercicio23\bin\Debug\netcoreapp3.1\Ejercicio23.exe
+C:\Impresor HP p2015d Drivers\REPOS\EjerLabo2\Ejercicio23\Ejercicio23\bin\Debug\netcoreapp3.1\Ejercicio23.deps.json
+C:\Impresor HP p2015d Drivers\REPOS\EjerLabo2\Ejercicio23\Ejercicio23\bin\Debug\netcoreapp3.1\Ejercicio23.runtimeconfig.json
+C:\Impresor HP p2015d Drivers\REPOS\EjerLabo2\Ejercicio23\Ejercicio23\bin\Debug\netcoreapp3.1\Ejercicio23.runtimeconfig.dev.json
+C:\Impresor HP p2015d Drivers\REPOS\EjerLabo2\Ejercicio23\Ejercicio23\bin\Debug\netcoreapp3.1\Ejercicio23.dll
+C:\Impresor HP p2015d Drivers\REPOS\EjerLabo2\Ejercicio23\Ejercicio23\bin\Debug\netcoreapp3.1\Ejercicio23.pdb
+C:\Impresor HP p2015d Drivers\REPOS\EjerLabo2\Ejercicio23\Ejercicio23\bin\Debug\netcoreapp3.1\Ejercicio20.dll
+C:\Impresor HP p2015d Drivers\REPOS\EjerLabo2\Ejercicio23\Ejercicio23\bin\Debug\netcoreapp3.1\Ejercicio20.pdb
+C:\Impresor HP p2015d Drivers\REPOS\EjerLabo2\Ejercicio23\Ejercicio23\obj\Debug\netcoreapp3.1\Ejercicio23.csprojAssemblyReference.cache
+C:\Impresor HP p2015d Drivers\REPOS\EjerLabo2\Ejercicio23\Ejercicio23\obj\Debug\netcoreapp3.1\Ejercicio23.Form1.resources
+C:\Impresor HP p2015d Drivers\REPOS\EjerLabo2\Ejercicio23\Ejercicio23\obj\Debug\netcoreapp3.1\Ejercicio23.csproj.GenerateResource.cache
+C:\Impresor HP p2015d Drivers\REPOS\EjerLabo2\Ejercicio23\Ejercicio23\obj\Debug\netcoreapp3.1\Ejercicio23.AssemblyInfoInputs.cache
+C:\Impresor HP p2015d Drivers\REPOS\EjerLabo2\Ejercicio23\Ejercicio23\obj\Debug\netcoreapp3.1\Ejercicio23.AssemblyInfo.cs
+C:\Impresor HP p2015d Drivers\REPOS\EjerLabo2\Ejercicio23\Ejercicio23\obj\Debug\netcoreapp3.1\Ejercicio23.csproj.CoreCompileInputs.cache
+C:\Impresor HP p2015d Drivers\REPOS\EjerLabo2\Ejercicio23\Ejercicio23\obj\Debug\netcoreapp3.1\Ejercicio23.csproj.CopyComplete
+C:\Impresor HP p2015d Drivers\REPOS\EjerLabo2\Ejercicio23\Ejercicio23\obj\Debug\netcoreapp3.1\Ejercicio23.dll
+C:\Impresor HP p2015d Drivers\REPOS\EjerLabo2\Ejercicio23\Ejercicio23\obj\Debug\netcoreapp3.1\Ejercicio23.pdb
+C:\Impresor HP p2015d Drivers\REPOS\EjerLabo2\Ejercicio23\Ejercicio23\obj\Debug\netcoreapp3.1\Ejercicio23.genruntimeconfig.cache

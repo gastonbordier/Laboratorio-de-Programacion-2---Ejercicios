@@ -36,16 +36,16 @@ namespace Ejercicio23
             this.txtDolar = new System.Windows.Forms.TextBox();
             this.txtEuro = new System.Windows.Forms.TextBox();
             this.txtPeso = new System.Windows.Forms.TextBox();
-            this.btn = new System.Windows.Forms.Button();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.btnDolar = new System.Windows.Forms.Button();
+            this.txtPesoADolar = new System.Windows.Forms.TextBox();
+            this.txtEuroADolar = new System.Windows.Forms.TextBox();
             this.txtDolarADolar = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.txtPesoAEuro = new System.Windows.Forms.TextBox();
+            this.txtEuroAEuro = new System.Windows.Forms.TextBox();
+            this.txtDolarAEuro = new System.Windows.Forms.TextBox();
+            this.txtPesosAPesos = new System.Windows.Forms.TextBox();
+            this.txtEuroAPeso = new System.Windows.Forms.TextBox();
+            this.txtDolarAPeso = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -53,8 +53,8 @@ namespace Ejercicio23
             this.txtCotizacionEuro = new System.Windows.Forms.TextBox();
             this.txtCotizacionDolar = new System.Windows.Forms.TextBox();
             this.btnBloquear = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnEuro = new System.Windows.Forms.Button();
+            this.btnPeso = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -111,6 +111,7 @@ namespace Ejercicio23
             this.txtEuro.Name = "txtEuro";
             this.txtEuro.Size = new System.Drawing.Size(100, 23);
             this.txtEuro.TabIndex = 5;
+            this.txtEuro.Leave += new System.EventHandler(this.txtEuro_Leave);
             // 
             // txtPeso
             // 
@@ -118,82 +119,92 @@ namespace Ejercicio23
             this.txtPeso.Name = "txtPeso";
             this.txtPeso.Size = new System.Drawing.Size(100, 23);
             this.txtPeso.TabIndex = 6;
+            this.txtPeso.Leave += new System.EventHandler(this.txtPeso_Leave);
             // 
-            // btn
+            // btnDolar
             // 
-            this.btn.Cursor = System.Windows.Forms.Cursors.Default;
-            this.btn.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btn.Location = new System.Drawing.Point(274, 114);
-            this.btn.Name = "btn";
-            this.btn.Size = new System.Drawing.Size(94, 33);
-            this.btn.TabIndex = 7;
-            this.btn.Text = "->";
-            this.btn.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btn.UseVisualStyleBackColor = true;
-            this.btn.Click += new System.EventHandler(this.btn_Click);
+            this.btnDolar.Cursor = System.Windows.Forms.Cursors.Default;
+            this.btnDolar.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnDolar.Location = new System.Drawing.Point(274, 114);
+            this.btnDolar.Name = "btnDolar";
+            this.btnDolar.Size = new System.Drawing.Size(94, 33);
+            this.btnDolar.TabIndex = 7;
+            this.btnDolar.Text = "->";
+            this.btnDolar.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnDolar.UseVisualStyleBackColor = true;
+            this.btnDolar.Click += new System.EventHandler(this.btnDolar_Click);
             // 
-            // textBox4
+            // txtPesoADolar
             // 
-            this.textBox4.Location = new System.Drawing.Point(395, 208);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 23);
-            this.textBox4.TabIndex = 12;
+            this.txtPesoADolar.Location = new System.Drawing.Point(395, 208);
+            this.txtPesoADolar.Name = "txtPesoADolar";
+            this.txtPesoADolar.ReadOnly = true;
+            this.txtPesoADolar.Size = new System.Drawing.Size(100, 23);
+            this.txtPesoADolar.TabIndex = 12;
             // 
-            // textBox5
+            // txtEuroADolar
             // 
-            this.textBox5.Location = new System.Drawing.Point(395, 162);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 23);
-            this.textBox5.TabIndex = 11;
+            this.txtEuroADolar.Location = new System.Drawing.Point(395, 162);
+            this.txtEuroADolar.Name = "txtEuroADolar";
+            this.txtEuroADolar.ReadOnly = true;
+            this.txtEuroADolar.Size = new System.Drawing.Size(100, 23);
+            this.txtEuroADolar.TabIndex = 11;
             // 
             // txtDolarADolar
             // 
             this.txtDolarADolar.Location = new System.Drawing.Point(395, 117);
             this.txtDolarADolar.Name = "txtDolarADolar";
+            this.txtDolarADolar.ReadOnly = true;
             this.txtDolarADolar.Size = new System.Drawing.Size(100, 23);
             this.txtDolarADolar.TabIndex = 10;
             // 
-            // textBox7
+            // txtPesoAEuro
             // 
-            this.textBox7.Location = new System.Drawing.Point(518, 208);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(100, 23);
-            this.textBox7.TabIndex = 15;
+            this.txtPesoAEuro.Location = new System.Drawing.Point(518, 208);
+            this.txtPesoAEuro.Name = "txtPesoAEuro";
+            this.txtPesoAEuro.ReadOnly = true;
+            this.txtPesoAEuro.Size = new System.Drawing.Size(100, 23);
+            this.txtPesoAEuro.TabIndex = 15;
             // 
-            // textBox8
+            // txtEuroAEuro
             // 
-            this.textBox8.Location = new System.Drawing.Point(518, 162);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(100, 23);
-            this.textBox8.TabIndex = 14;
+            this.txtEuroAEuro.Location = new System.Drawing.Point(518, 162);
+            this.txtEuroAEuro.Name = "txtEuroAEuro";
+            this.txtEuroAEuro.ReadOnly = true;
+            this.txtEuroAEuro.Size = new System.Drawing.Size(100, 23);
+            this.txtEuroAEuro.TabIndex = 14;
             // 
-            // textBox9
+            // txtDolarAEuro
             // 
-            this.textBox9.Location = new System.Drawing.Point(518, 117);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(100, 23);
-            this.textBox9.TabIndex = 13;
+            this.txtDolarAEuro.Location = new System.Drawing.Point(518, 117);
+            this.txtDolarAEuro.Name = "txtDolarAEuro";
+            this.txtDolarAEuro.ReadOnly = true;
+            this.txtDolarAEuro.Size = new System.Drawing.Size(100, 23);
+            this.txtDolarAEuro.TabIndex = 13;
             // 
-            // textBox10
+            // txtPesosAPesos
             // 
-            this.textBox10.Location = new System.Drawing.Point(638, 208);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(100, 23);
-            this.textBox10.TabIndex = 18;
+            this.txtPesosAPesos.Location = new System.Drawing.Point(638, 208);
+            this.txtPesosAPesos.Name = "txtPesosAPesos";
+            this.txtPesosAPesos.ReadOnly = true;
+            this.txtPesosAPesos.Size = new System.Drawing.Size(100, 23);
+            this.txtPesosAPesos.TabIndex = 18;
             // 
-            // textBox11
+            // txtEuroAPeso
             // 
-            this.textBox11.Location = new System.Drawing.Point(638, 162);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(100, 23);
-            this.textBox11.TabIndex = 17;
+            this.txtEuroAPeso.Location = new System.Drawing.Point(638, 162);
+            this.txtEuroAPeso.Name = "txtEuroAPeso";
+            this.txtEuroAPeso.ReadOnly = true;
+            this.txtEuroAPeso.Size = new System.Drawing.Size(100, 23);
+            this.txtEuroAPeso.TabIndex = 17;
             // 
-            // textBox12
+            // txtDolarAPeso
             // 
-            this.textBox12.Location = new System.Drawing.Point(638, 117);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(100, 23);
-            this.textBox12.TabIndex = 16;
+            this.txtDolarAPeso.Location = new System.Drawing.Point(638, 117);
+            this.txtDolarAPeso.Name = "txtDolarAPeso";
+            this.txtDolarAPeso.ReadOnly = true;
+            this.txtDolarAPeso.Size = new System.Drawing.Size(100, 23);
+            this.txtDolarAPeso.TabIndex = 16;
             // 
             // label5
             // 
@@ -262,37 +273,39 @@ namespace Ejercicio23
             this.btnBloquear.UseVisualStyleBackColor = true;
             this.btnBloquear.Click += new System.EventHandler(this.btnBloquear_Click);
             // 
-            // button2
+            // btnEuro
             // 
-            this.button2.Cursor = System.Windows.Forms.Cursors.Default;
-            this.button2.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button2.Location = new System.Drawing.Point(274, 157);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(94, 33);
-            this.button2.TabIndex = 26;
-            this.button2.Text = "->";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnEuro.Cursor = System.Windows.Forms.Cursors.Default;
+            this.btnEuro.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnEuro.Location = new System.Drawing.Point(274, 157);
+            this.btnEuro.Name = "btnEuro";
+            this.btnEuro.Size = new System.Drawing.Size(94, 33);
+            this.btnEuro.TabIndex = 26;
+            this.btnEuro.Text = "->";
+            this.btnEuro.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnEuro.UseVisualStyleBackColor = true;
+            this.btnEuro.Click += new System.EventHandler(this.btnEuro_Click);
             // 
-            // button3
+            // btnPeso
             // 
-            this.button3.Cursor = System.Windows.Forms.Cursors.Default;
-            this.button3.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button3.Location = new System.Drawing.Point(274, 203);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(94, 33);
-            this.button3.TabIndex = 27;
-            this.button3.Text = "->";
-            this.button3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnPeso.Cursor = System.Windows.Forms.Cursors.Default;
+            this.btnPeso.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnPeso.Location = new System.Drawing.Point(274, 203);
+            this.btnPeso.Name = "btnPeso";
+            this.btnPeso.Size = new System.Drawing.Size(94, 33);
+            this.btnPeso.TabIndex = 27;
+            this.btnPeso.Text = "->";
+            this.btnPeso.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnPeso.UseVisualStyleBackColor = true;
+            this.btnPeso.Click += new System.EventHandler(this.btnPeso_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 279);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnPeso);
+            this.Controls.Add(this.btnEuro);
             this.Controls.Add(this.btnBloquear);
             this.Controls.Add(this.txtCotizacionPeso);
             this.Controls.Add(this.txtCotizacionEuro);
@@ -300,16 +313,16 @@ namespace Ejercicio23
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox10);
-            this.Controls.Add(this.textBox11);
-            this.Controls.Add(this.textBox12);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.txtPesosAPesos);
+            this.Controls.Add(this.txtEuroAPeso);
+            this.Controls.Add(this.txtDolarAPeso);
+            this.Controls.Add(this.txtPesoAEuro);
+            this.Controls.Add(this.txtEuroAEuro);
+            this.Controls.Add(this.txtDolarAEuro);
+            this.Controls.Add(this.txtPesoADolar);
+            this.Controls.Add(this.txtEuroADolar);
             this.Controls.Add(this.txtDolarADolar);
-            this.Controls.Add(this.btn);
+            this.Controls.Add(this.btnDolar);
             this.Controls.Add(this.txtPeso);
             this.Controls.Add(this.txtEuro);
             this.Controls.Add(this.txtDolar);
@@ -338,16 +351,16 @@ namespace Ejercicio23
         private System.Windows.Forms.TextBox txtDolar;
         private System.Windows.Forms.TextBox txtEuro;
         private System.Windows.Forms.TextBox txtPeso;
-        private System.Windows.Forms.Button btn;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.Button btnDolar;
+        private System.Windows.Forms.TextBox txtPesoADolar;
+        private System.Windows.Forms.TextBox txtEuroADolar;
         private System.Windows.Forms.TextBox txtDolarADolar;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.TextBox txtPesoAEuro;
+        private System.Windows.Forms.TextBox txtEuroAEuro;
+        private System.Windows.Forms.TextBox txtDolarAEuro;
+        private System.Windows.Forms.TextBox txtPesosAPesos;
+        private System.Windows.Forms.TextBox txtEuroAPeso;
+        private System.Windows.Forms.TextBox txtDolarAPeso;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
@@ -355,8 +368,8 @@ namespace Ejercicio23
         private System.Windows.Forms.TextBox txtCotizacionEuro;
         private System.Windows.Forms.TextBox txtCotizacionDolar;
         private System.Windows.Forms.Button btnBloquear;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnEuro;
+        private System.Windows.Forms.Button btnPeso;
     }
 }
 

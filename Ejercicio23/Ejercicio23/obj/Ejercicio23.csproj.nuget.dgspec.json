@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrador\\source\\repos\\Ejercicio23\\Ejercicio23\\Ejercicio23.csproj": {}
+    "C:\\Impresor HP p2015d Drivers\\REPOS\\EjerLabo2\\Ejercicio23\\Ejercicio23\\Ejercicio23.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrador\\source\\repos\\Ejercicio20\\Ejercicio20\\Ejercicio20.csproj": {
+    "C:\\Impresor HP p2015d Drivers\\REPOS\\EjerLabo2\\Ejercicio20\\Ejercicio20\\Ejercicio20.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrador\\source\\repos\\Ejercicio20\\Ejercicio20\\Ejercicio20.csproj",
+        "projectUniqueName": "C:\\Impresor HP p2015d Drivers\\REPOS\\EjerLabo2\\Ejercicio20\\Ejercicio20\\Ejercicio20.csproj",
         "projectName": "Ejercicio20",
-        "projectPath": "C:\\Users\\Administrador\\source\\repos\\Ejercicio20\\Ejercicio20\\Ejercicio20.csproj",
+        "projectPath": "C:\\Impresor HP p2015d Drivers\\REPOS\\EjerLabo2\\Ejercicio20\\Ejercicio20\\Ejercicio20.csproj",
         "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrador\\source\\repos\\Ejercicio20\\Ejercicio20\\obj\\",
+        "outputPath": "C:\\Impresor HP p2015d Drivers\\REPOS\\EjerLabo2\\Ejercicio20\\Ejercicio20\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -58,14 +58,14 @@
         }
       }
     },
-    "C:\\Users\\Administrador\\source\\repos\\Ejercicio23\\Ejercicio23\\Ejercicio23.csproj": {
+    "C:\\Impresor HP p2015d Drivers\\REPOS\\EjerLabo2\\Ejercicio23\\Ejercicio23\\Ejercicio23.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrador\\source\\repos\\Ejercicio23\\Ejercicio23\\Ejercicio23.csproj",
+        "projectUniqueName": "C:\\Impresor HP p2015d Drivers\\REPOS\\EjerLabo2\\Ejercicio23\\Ejercicio23\\Ejercicio23.csproj",
         "projectName": "Ejercicio23",
-        "projectPath": "C:\\Users\\Administrador\\source\\repos\\Ejercicio23\\Ejercicio23\\Ejercicio23.csproj",
+        "projectPath": "C:\\Impresor HP p2015d Drivers\\REPOS\\EjerLabo2\\Ejercicio23\\Ejercicio23\\Ejercicio23.csproj",
         "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrador\\source\\repos\\Ejercicio23\\Ejercicio23\\obj\\",
+        "outputPath": "C:\\Impresor HP p2015d Drivers\\REPOS\\EjerLabo2\\Ejercicio23\\Ejercicio23\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -82,8 +82,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Administrador\\source\\repos\\Ejercicio20\\Ejercicio20\\Ejercicio20.csproj": {
-                "projectPath": "C:\\Users\\Administrador\\source\\repos\\Ejercicio20\\Ejercicio20\\Ejercicio20.csproj"
+              "C:\\Impresor HP p2015d Drivers\\REPOS\\EjerLabo2\\Ejercicio20\\Ejercicio20\\Ejercicio20.csproj": {
+                "projectPath": "C:\\Impresor HP p2015d Drivers\\REPOS\\EjerLabo2\\Ejercicio20\\Ejercicio20\\Ejercicio20.csproj"
               }
             }
           }

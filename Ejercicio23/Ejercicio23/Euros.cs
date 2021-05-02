@@ -20,7 +20,7 @@ namespace Billetes
         }
         public Euros(double cantidad)
         {
-            this.cantidad = cantidad;
+            this.cantidad = Auxiliares.TruncarEnDosDecimales(cantidad);
 
         }
         //OPERADORES DE CONVERSION
@@ -30,7 +30,7 @@ namespace Billetes
         }
         public static explicit operator Pesos(Euros euros)
         {
-            return new Pesos(euros.getCantidad() * (Pesos.getCotizacionDolar() / Euros.getCotizacionDolar()));
+            return new Pesos(euros.getCantidad() * (Pesos.GetCotizacionDolar() / Euros.getCotizacionDolar()));
         }
 
         public static implicit operator Euros(double d)
