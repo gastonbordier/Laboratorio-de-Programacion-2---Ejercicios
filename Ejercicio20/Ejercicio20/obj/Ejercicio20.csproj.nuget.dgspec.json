@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Impresor HP p2015d Drivers\\REPOS\\EjerLabo2\\Ejercicio20\\Ejercicio20\\Ejercicio20.csproj": {}
+    "C:\\Users\\Gaston\\Desktop\\REPOS\\CsharpWS\\Laboratorio-de-Programacion-2---Ejercicios\\Ejercicio20\\Ejercicio20\\Ejercicio20.csproj": {}
   },
   "projects": {
-    "C:\\Impresor HP p2015d Drivers\\REPOS\\EjerLabo2\\Ejercicio20\\Ejercicio20\\Ejercicio20.csproj": {
+    "C:\\Users\\Gaston\\Desktop\\REPOS\\CsharpWS\\Laboratorio-de-Programacion-2---Ejercicios\\Ejercicio20\\Ejercicio20\\Ejercicio20.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Impresor HP p2015d Drivers\\REPOS\\EjerLabo2\\Ejercicio20\\Ejercicio20\\Ejercicio20.csproj",
+        "projectUniqueName": "C:\\Users\\Gaston\\Desktop\\REPOS\\CsharpWS\\Laboratorio-de-Programacion-2---Ejercicios\\Ejercicio20\\Ejercicio20\\Ejercicio20.csproj",
         "projectName": "Ejercicio20",
-        "projectPath": "C:\\Impresor HP p2015d Drivers\\REPOS\\EjerLabo2\\Ejercicio20\\Ejercicio20\\Ejercicio20.csproj",
-        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
-        "outputPath": "C:\\Impresor HP p2015d Drivers\\REPOS\\EjerLabo2\\Ejercicio20\\Ejercicio20\\obj\\",
+        "projectPath": "C:\\Users\\Gaston\\Desktop\\REPOS\\CsharpWS\\Laboratorio-de-Programacion-2---Ejercicios\\Ejercicio20\\Ejercicio20\\Ejercicio20.csproj",
+        "packagesPath": "C:\\Users\\Gaston\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gaston\\Desktop\\REPOS\\CsharpWS\\Laboratorio-de-Programacion-2---Ejercicios\\Ejercicio20\\Ejercicio20\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Gaston\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
