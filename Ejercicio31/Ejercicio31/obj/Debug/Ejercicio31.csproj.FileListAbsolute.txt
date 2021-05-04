@@ -1,0 +1,7 @@
+C:\Users\Administrador\source\repos\Ejercicio31\Ejercicio31\bin\Debug\Ejercicio31.exe.config
+C:\Users\Administrador\source\repos\Ejercicio31\Ejercicio31\bin\Debug\Ejercicio31.exe
+C:\Users\Administrador\source\repos\Ejercicio31\Ejercicio31\bin\Debug\Ejercicio31.pdb
+C:\Users\Administrador\source\repos\Ejercicio31\Ejercicio31\obj\Debug\Ejercicio31.csprojAssemblyReference.cache
+C:\Users\Administrador\source\repos\Ejercicio31\Ejercicio31\obj\Debug\Ejercicio31.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\source\repos\Ejercicio31\Ejercicio31\obj\Debug\Ejercicio31.exe
+C:\Users\Administrador\source\repos\Ejercicio31\Ejercicio31\obj\Debug\Ejercicio31.pdb

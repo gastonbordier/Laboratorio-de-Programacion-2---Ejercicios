@@ -1,0 +1,7 @@
+C:\Users\Administrador\source\repos\Ejercicio27\Ejercicio27\obj\Debug\Ejercicio27.csprojAssemblyReference.cache
+C:\Users\Administrador\source\repos\Ejercicio27\Ejercicio27\obj\Debug\Ejercicio27.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\source\repos\Ejercicio27\Ejercicio27\bin\Debug\Ejercicio27.exe.config
+C:\Users\Administrador\source\repos\Ejercicio27\Ejercicio27\bin\Debug\Ejercicio27.exe
+C:\Users\Administrador\source\repos\Ejercicio27\Ejercicio27\bin\Debug\Ejercicio27.pdb
+C:\Users\Administrador\source\repos\Ejercicio27\Ejercicio27\obj\Debug\Ejercicio27.exe
+C:\Users\Administrador\source\repos\Ejercicio27\Ejercicio27\obj\Debug\Ejercicio27.pdb
