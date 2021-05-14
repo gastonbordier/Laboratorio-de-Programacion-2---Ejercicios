@@ -1,0 +1,10 @@
+C:\Users\Administrador\source\repos\CentralitaHerencia\Ejecucion\bin\Debug\Ejecucion.exe.config
+C:\Users\Administrador\source\repos\CentralitaHerencia\Ejecucion\bin\Debug\Ejecucion.exe
+C:\Users\Administrador\source\repos\CentralitaHerencia\Ejecucion\bin\Debug\Ejecucion.pdb
+C:\Users\Administrador\source\repos\CentralitaHerencia\Ejecucion\bin\Debug\CentralitaHerencia.dll
+C:\Users\Administrador\source\repos\CentralitaHerencia\Ejecucion\bin\Debug\CentralitaHerencia.pdb
+C:\Users\Administrador\source\repos\CentralitaHerencia\Ejecucion\obj\Debug\Ejecucion.csprojAssemblyReference.cache
+C:\Users\Administrador\source\repos\CentralitaHerencia\Ejecucion\obj\Debug\Ejecucion.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\source\repos\CentralitaHerencia\Ejecucion\obj\Debug\Ejecucion.csproj.CopyComplete
+C:\Users\Administrador\source\repos\CentralitaHerencia\Ejecucion\obj\Debug\Ejecucion.exe
+C:\Users\Administrador\source\repos\CentralitaHerencia\Ejecucion\obj\Debug\Ejecucion.pdb

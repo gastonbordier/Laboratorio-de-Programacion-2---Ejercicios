@@ -6,17 +6,19 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    class Program
+   class Program
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine(Class1.getVariable());
+        static void Main (string[] args){
 
-            Class1.setVariable(3);
+            Mujer mujer = new Mujer(25, "Emily", 105);
 
-            Console.WriteLine(Class1.getVariable());
+            mujer.ObtenerPersonalidad();
+
 
 
         }
     }
+
+        
+    
 }

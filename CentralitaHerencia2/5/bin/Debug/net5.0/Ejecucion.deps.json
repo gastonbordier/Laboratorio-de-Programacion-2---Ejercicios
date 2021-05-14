@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Ejecucion/1.0.0": {
+        "dependencies": {
+          "CentralitaHerencia2": "1.0.0"
+        },
+        "runtime": {
+          "Ejecucion.dll": {}
+        }
+      },
+      "CentralitaHerencia2/1.0.0": {
+        "runtime": {
+          "CentralitaHerencia2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ejecucion/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CentralitaHerencia2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
